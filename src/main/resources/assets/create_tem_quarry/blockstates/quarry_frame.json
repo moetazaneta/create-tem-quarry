@@ -1,0 +1,326 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "part": "column_base"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/column_base"
+      }
+    },
+    {
+      "when": {
+        "part": "column"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/column"
+      }
+    },
+    {
+      "when": {
+        "part": "corner"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/corner"
+      }
+    },
+    {
+      "when": {
+        "part": "beam",
+        "axis": "x"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/beam"
+      }
+    },
+    {
+      "when": {
+        "part": "beam",
+        "axis": "z"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/beam",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "junction",
+        "axis": "x"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/junction"
+      }
+    },
+    {
+      "when": {
+        "part": "junction",
+        "axis": "z"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/junction",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "corner",
+        "east": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/corner_stub",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "corner",
+        "south": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/corner_stub",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "corner",
+        "west": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/corner_stub",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "part": "corner",
+        "north": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/frame/corner_stub",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "andesite",
+        "north": "true"
+      },
+      "apply": {
+        "model": "create:block/andesite_side",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "andesite",
+        "east": "true"
+      },
+      "apply": {
+        "model": "create:block/andesite_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "andesite",
+        "south": "true"
+      },
+      "apply": {
+        "model": "create:block/andesite_side_alt",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "andesite",
+        "west": "true"
+      },
+      "apply": {
+        "model": "create:block/andesite_side_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "brass",
+        "north": "true"
+      },
+      "apply": {
+        "model": "create:block/brass_side",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "brass",
+        "east": "true"
+      },
+      "apply": {
+        "model": "create:block/brass_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "brass",
+        "south": "true"
+      },
+      "apply": {
+        "model": "create:block/brass_side_alt",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "brass",
+        "west": "true"
+      },
+      "apply": {
+        "model": "create:block/brass_side_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "copper",
+        "north": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_side",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "copper",
+        "east": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "copper",
+        "south": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_side_alt",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "copper",
+        "west": "true"
+      },
+      "apply": {
+        "model": "create:block/copper_side_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "iron",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "iron",
+        "east": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "iron",
+        "south": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side_alt",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "iron",
+        "west": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side_alt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "railing",
+        "north": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/fence/side",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "railing",
+        "east": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/fence/side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "railing",
+        "south": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/fence/side",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "part": "column|column_base",
+        "rail": "railing",
+        "west": "true"
+      },
+      "apply": {
+        "model": "create_tem_quarry:block/fence/side",
+        "y": 270
+      }
+    }
+  ]
+}

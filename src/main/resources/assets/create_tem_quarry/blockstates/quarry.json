@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,style=andesite": {
+      "model": "create_tem_quarry:block/quarry/andesite",
+      "y": 0
+    },
+    "facing=east,style=andesite": {
+      "model": "create_tem_quarry:block/quarry/andesite",
+      "y": 90
+    },
+    "facing=south,style=andesite": {
+      "model": "create_tem_quarry:block/quarry/andesite",
+      "y": 180
+    },
+    "facing=west,style=andesite": {
+      "model": "create_tem_quarry:block/quarry/andesite",
+      "y": 270
+    },
+    "facing=north,style=brass": {
+      "model": "create_tem_quarry:block/quarry/brass",
+      "y": 0
+    },
+    "facing=east,style=brass": {
+      "model": "create_tem_quarry:block/quarry/brass",
+      "y": 90
+    },
+    "facing=south,style=brass": {
+      "model": "create_tem_quarry:block/quarry/brass",
+      "y": 180
+    },
+    "facing=west,style=brass": {
+      "model": "create_tem_quarry:block/quarry/brass",
+      "y": 270
+    },
+    "facing=north,style=copper": {
+      "model": "create_tem_quarry:block/quarry/copper",
+      "y": 0
+    },
+    "facing=east,style=copper": {
+      "model": "create_tem_quarry:block/quarry/copper",
+      "y": 90
+    },
+    "facing=south,style=copper": {
+      "model": "create_tem_quarry:block/quarry/copper",
+      "y": 180
+    },
+    "facing=west,style=copper": {
+      "model": "create_tem_quarry:block/quarry/copper",
+      "y": 270
+    }
+  }
+}

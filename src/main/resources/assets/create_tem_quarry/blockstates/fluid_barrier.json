@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "look=andesite_scaffolding": {
+      "model": "create:block/andesite_scaffolding"
+    },
+    "look=brass_scaffolding": {
+      "model": "create:block/brass_scaffolding"
+    },
+    "look=copper_scaffolding": {
+      "model": "create:block/copper_scaffolding"
+    },
+    "look=vanilla_scaffolding": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "look=glass": {
+      "model": "create_tem_quarry:block/fluid_barrier_glass"
+    }
+  }
+}

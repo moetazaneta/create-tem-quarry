@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "create_tem_quarry",
+  "version": "${version}",
+  "name": "Create: Tem Quarry",
+  "description": "A rotation-powered gantry quarry addon for Create.",
+  "authors": [
+    "moetazaneta"
+  ],
+  "contact": {
+    "sources": "https://github.com/moetazaneta/create-tem-quarry",
+    "issues": "https://github.com/moetazaneta/create-tem-quarry/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/create_tem_quarry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.moetazaneta.createtemquarry.CreateTemQuarry"
+    ],
+    "client": [
+      "dev.moetazaneta.createtemquarry.CreateTemQuarryClient"
+    ],
+    "modmenu": [
+      "dev.moetazaneta.createtemquarry.compat.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": ">=${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

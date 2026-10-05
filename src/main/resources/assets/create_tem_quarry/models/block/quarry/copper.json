@@ -1,0 +1,6 @@
+{
+  "parent": "create_tem_quarry:block/quarry/base",
+  "textures": {
+    "back": "create_tem_quarry:block/copper_gearbox"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "metal": "create:block/andesite_block",
+    "casing": "create:block/andesite_casing",
+    "parts": "create_tem_quarry:block/gantry_parts_andesite",
+    "particle": "#metal"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        6.5,
+        2
+      ],
+      "to": [
+        14,
+        9.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            4.125,
+            8.875,
+            5.625,
+            10.375
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            4.125,
+            8.875,
+            5.625,
+            10.375
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "disc"
+    },
+    {
+      "from": [
+        2,
+        6.5,
+        2
+      ],
+      "to": [
+        14,
+        9.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            2.625,
+            8.875,
+            4.125,
+            9.25
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            4.125,
+            8.875,
+            5.625,
+            10.375
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            4.125,
+            8.875,
+            5.625,
+            10.375
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "disc45",
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "from": [
+        5,
+        6,
+        5
+      ],
+      "to": [
+        11,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            2.625,
+            10.0,
+            3.125
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            2.625,
+            10.0,
+            3.125
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            2.625,
+            10.0,
+            3.125
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            2.625,
+            10.0,
+            3.125
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            5.625,
+            8.875,
+            6.375,
+            9.625
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            5.625,
+            8.875,
+            6.375,
+            9.625
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "hub"
+    },
+    {
+      "from": [
+        -1,
+        6.5,
+        6.5
+      ],
+      "to": [
+        17,
+        9.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "south": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        }
+      },
+      "name": "teeth",
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "from": [
+        -1,
+        6.5,
+        6.5
+      ],
+      "to": [
+        17,
+        9.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "south": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        }
+      },
+      "name": "teeth",
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "from": [
+        -1,
+        6.5,
+        6.5
+      ],
+      "to": [
+        17,
+        9.5,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "south": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        }
+      },
+      "name": "teeth",
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "from": [
+        6.5,
+        6.5,
+        -1
+      ],
+      "to": [
+        9.5,
+        9.5,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "west": {
+          "uv": [
+            0,
+            6.5,
+            16,
+            9.5
+          ],
+          "texture": "#metal"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ],
+          "texture": "#metal"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            0,
+            9.5,
+            16
+          ],
+          "texture": "#metal"
+        }
+      },
+      "name": "teeth"
+    }
+  ]
+}

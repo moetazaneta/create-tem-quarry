@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_tem_quarry:quarry",
+    "create_tem_quarry:quarry_frame",
+    "create_tem_quarry:quarry_fence"
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Run client",
+    "command": "./gradlew runClient",
+    "use_new_terminal": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Build",
+    "command": "./gradlew build",
+    "reveal": "always"
+  },
+  {
+    "label": "Install to pack",
+    "command": "./gradlew installToPack",
+    "reveal": "always"
+  }
+]

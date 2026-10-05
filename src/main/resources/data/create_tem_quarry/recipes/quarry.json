@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GPG",
+    "CXC",
+    "GDG"
+  ],
+  "key": {
+    "G": {
+      "item": "create:metal_girder"
+    },
+    "P": {
+      "item": "create:rope_pulley"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "X": {
+      "item": "create:andesite_casing"
+    },
+    "D": {
+      "item": "create:mechanical_drill"
+    }
+  },
+  "result": {
+    "item": "create_tem_quarry:quarry"
+  }
+}

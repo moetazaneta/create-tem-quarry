@@ -1,0 +1,8 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.gradle.wrapper.enabled": true,
+  "files.exclude": {
+    "**/.gradle": true,
+    "**/bin": true
+  }
+}

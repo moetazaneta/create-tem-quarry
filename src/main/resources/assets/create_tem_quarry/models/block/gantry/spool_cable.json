@@ -1,0 +1,286 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "coil": "create:block/industrial_iron_block",
+    "steel": "create:block/industrial_iron_block",
+    "particle": "create:block/industrial_iron_block"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        5.5,
+        5.5
+      ],
+      "to": [
+        11,
+        10.5,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            5.5,
+            11,
+            10.5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            5.5,
+            10.5,
+            10.5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            5,
+            5.5,
+            11,
+            10.5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            5.5,
+            10.5,
+            10.5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            5,
+            5.5,
+            11,
+            10.5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            5,
+            5.5,
+            11,
+            10.5
+          ],
+          "texture": "#coil"
+        }
+      },
+      "name": "drum"
+    },
+    {
+      "from": [
+        4,
+        4.5,
+        4.5
+      ],
+      "to": [
+        5,
+        11.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            4.5,
+            12,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            4,
+            4.5,
+            5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            4,
+            4.5,
+            5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            4,
+            4.5,
+            5,
+            11.5
+          ],
+          "texture": "#steel"
+        }
+      },
+      "name": "flange"
+    },
+    {
+      "from": [
+        11,
+        4.5,
+        4.5
+      ],
+      "to": [
+        12,
+        11.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4.5,
+            5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            11,
+            4.5,
+            12,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            11,
+            4.5,
+            12,
+            11.5
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            11,
+            4.5,
+            12,
+            11.5
+          ],
+          "texture": "#steel"
+        }
+      },
+      "name": "flange"
+    },
+    {
+      "from": [
+        1.5,
+        7,
+        7
+      ],
+      "to": [
+        14.5,
+        9,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            7,
+            14.5,
+            9
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            7,
+            14.5,
+            9
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            7,
+            14.5,
+            9
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            7,
+            14.5,
+            9
+          ],
+          "texture": "#steel"
+        }
+      },
+      "name": "axle"
+    }
+  ]
+}

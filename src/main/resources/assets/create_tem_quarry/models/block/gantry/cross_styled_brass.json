@@ -1,0 +1,7 @@
+{
+  "parent": "create_tem_quarry:block/gantry/cross_styled",
+  "textures": {
+    "metal": "create:block/brass_block",
+    "casing": "create:block/brass_casing"
+  }
+}

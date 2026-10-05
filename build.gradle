@@ -1,0 +1,100 @@
+plugins {
+	id "fabric-loom"
+}
+
+base.archivesName = archives_base_name
+group = maven_group
+version = "$mod_version+$minecraft_version"
+
+repositories {
+	maven { url = "https://maven.parchmentmc.org" } // Parchment mappings
+
+	maven { url = "https://mvn.devos.one/snapshots" } // Create, Registrate
+	maven { url = "https://mvn.devos.one/releases" } // Porting Lib
+	maven { url = "https://maven.createmod.net" } // Flywheel, Ponder
+	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
+	maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" } // Forge Config API Port
+
+	maven { // Fabric ASM for Porting Lib
+		url = "https://jitpack.io/"
+		content { includeGroupAndSubgroups("com.github") }
+	}
+
+	maven { url = "https://maven.blamejared.com" } // JEI
+	maven { url = "https://maven.terraformersmc.com/releases" } // Mod Menu
+}
+
+configurations.configureEach {
+	resolutionStrategy {
+		// Old loader versions are sometimes pulled in transitively.
+		force("net.fabricmc:fabric-loader:$fabric_loader_version")
+	}
+}
+
+dependencies {
+	minecraft("com.mojang:minecraft:$minecraft_version")
+	mappings(loom.layered {
+		it.officialMojangMappings { nameSyntheticMembers = false }
+		it.parchment("org.parchmentmc.data:parchment-$minecraft_version:$parchment_version@zip")
+	})
+	modImplementation("net.fabricmc:fabric-loader:$fabric_loader_version")
+	modImplementation("net.fabricmc.fabric-api:fabric-api:$fabric_api_version")
+
+	// Create - its own dependencies (Flywheel, Ponder, Porting Lib...) come in transitively
+	modImplementation("com.simibubi.create:create-fabric:$create_version")
+
+	// Optional integration: config screen button in Mod Menu
+	modCompileOnly("com.terraformersmc:modmenu:$modmenu_version") { transitive = false }
+
+	// Dev-only
+	modLocalRuntime("mezz.jei:jei-$minecraft_version-fabric:$jei_version")
+	modLocalRuntime("com.terraformersmc:modmenu:$modmenu_version")
+}
+
+processResources {
+	Map<String, Object> properties = [
+			"version"              : version,
+			"minecraft_version"    : minecraft_version,
+			"fabric_loader_version": fabric_loader_version,
+			"fabric_api_version"   : fabric_api_version,
+			"create_version"       : create_version,
+	]
+
+	inputs.properties(properties)
+
+	filesMatching("fabric.mod.json") {
+		expand properties
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+// ./gradlew installToPack builds the mod and swaps its jar in a real modpack's mods folder.
+// Set pack_mods_dir in local.properties (not committed).
+def localProperties = new Properties()
+def localPropertiesFile = file("local.properties")
+if (localPropertiesFile.exists()) {
+	localPropertiesFile.withInputStream { localProperties.load(it) }
+}
+def packModsDir = localProperties.getProperty("pack_mods_dir")
+
+tasks.register("installToPack", Copy) {
+	group = "distribution"
+	description = "Builds the mod and replaces its jar in pack_mods_dir (local.properties)."
+	from(tasks.named("remapJar"))
+	into(packModsDir ?: layout.buildDirectory.dir("install-to-pack-unset"))
+	doFirst {
+		if (packModsDir == null) {
+			throw new GradleException("Set pack_mods_dir in local.properties to the pack's mods folder.")
+		}
+		delete(fileTree(packModsDir) { include("${archives_base_name}-*.jar") })
+	}
+}

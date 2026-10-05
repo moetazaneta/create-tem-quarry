@@ -1,0 +1,8 @@
+{
+  "parent": "create_tem_quarry:block/gantry/drill_bit_large",
+  "textures": {
+    "metal": "create:block/copper_underside",
+    "casing": "create:block/copper_casing",
+    "parts": "create_tem_quarry:block/gantry_parts_copper"
+  }
+}

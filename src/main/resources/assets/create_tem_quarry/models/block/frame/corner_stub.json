@@ -1,0 +1,179 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "girder": "create:block/girder",
+    "pole": "create:block/girder_pole",
+    "pole_side": "create:block/girder_pole_side",
+    "iron": "create:block/industrial_iron_block",
+    "particle": "create:block/industrial_iron_block"
+  },
+  "elements": [
+    {
+      "from": [
+        12,
+        4,
+        6
+      ],
+      "to": [
+        16,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            5,
+            2.0,
+            9
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#girder",
+          "rotation": 270
+        },
+        "south": {
+          "uv": [
+            6.0,
+            5,
+            8.0,
+            9
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "web"
+    },
+    {
+      "from": [
+        12,
+        2,
+        4
+      ],
+      "to": [
+        16,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4,
+            2.0,
+            5
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            4,
+            8.0,
+            5
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            14.0,
+            0,
+            16.0,
+            4
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            6.0,
+            0,
+            8.0,
+            4
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "bottom_flange"
+    },
+    {
+      "from": [
+        12,
+        12,
+        4
+      ],
+      "to": [
+        16,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4,
+            2.0,
+            5
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            4,
+            8.0,
+            5
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            0,
+            8.0,
+            4
+          ],
+          "texture": "#girder"
+        },
+        "down": {
+          "uv": [
+            14.0,
+            0,
+            16.0,
+            4
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        }
+      },
+      "name": "top_flange"
+    }
+  ]
+}

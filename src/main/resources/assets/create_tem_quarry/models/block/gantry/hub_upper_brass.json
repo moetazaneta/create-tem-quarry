@@ -1,0 +1,8 @@
+{
+  "parent": "create_tem_quarry:block/gantry/hub_upper",
+  "textures": {
+    "metal": "create:block/brass_block",
+    "casing": "create:block/brass_casing",
+    "parts": "create_tem_quarry:block/gantry_parts_brass"
+  }
+}

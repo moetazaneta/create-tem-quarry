@@ -1,0 +1,2 @@
+# Copy to local.properties (git-ignored) and point it at a Prism instance's mods folder.
+pack_mods_dir=/Users/you/Library/Application Support/PrismLauncher/instances/<instance>/minecraft/mods

@@ -1,0 +1,1236 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "girder": "create:block/girder",
+    "pole": "create:block/girder_pole",
+    "pole_side": "create:block/girder_pole_side",
+    "iron": "create:block/industrial_iron_block",
+    "particle": "create:block/industrial_iron_block"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        4,
+        6
+      ],
+      "to": [
+        16,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#girder",
+          "rotation": 270
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            8,
+            9
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#girder",
+          "rotation": 270
+        }
+      },
+      "name": "web"
+    },
+    {
+      "from": [
+        0,
+        2,
+        4
+      ],
+      "to": [
+        16,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "west": {
+          "uv": [
+            12,
+            2,
+            16,
+            3
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "bottom_flange"
+    },
+    {
+      "from": [
+        0,
+        12,
+        4
+      ],
+      "to": [
+        16,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            8,
+            5
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            12,
+            1,
+            16,
+            2
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ],
+          "texture": "#girder"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            16,
+            4
+          ],
+          "texture": "#girder",
+          "rotation": 180
+        }
+      },
+      "name": "top_flange"
+    },
+    {
+      "from": [
+        0.5,
+        14,
+        4
+      ],
+      "to": [
+        1.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        0.5,
+        14,
+        10.5
+      ],
+      "to": [
+        1.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        2.5,
+        14,
+        4
+      ],
+      "to": [
+        3.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        2.5,
+        14,
+        10.5
+      ],
+      "to": [
+        3.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        4.5,
+        14,
+        4
+      ],
+      "to": [
+        5.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        4.5,
+        14,
+        10.5
+      ],
+      "to": [
+        5.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        6.5,
+        14,
+        4
+      ],
+      "to": [
+        7.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        6.5,
+        14,
+        10.5
+      ],
+      "to": [
+        7.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        8.5,
+        14,
+        4
+      ],
+      "to": [
+        9.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        8.5,
+        14,
+        10.5
+      ],
+      "to": [
+        9.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        10.5,
+        14,
+        4
+      ],
+      "to": [
+        11.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        10.5,
+        14,
+        10.5
+      ],
+      "to": [
+        11.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        12.5,
+        14,
+        4
+      ],
+      "to": [
+        13.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        12.5,
+        14,
+        10.5
+      ],
+      "to": [
+        13.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        14.5,
+        14,
+        4
+      ],
+      "to": [
+        15.5,
+        15,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        14.5,
+        14,
+        10.5
+      ],
+      "to": [
+        15.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "east": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "south": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "west": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.5,
+            2.25
+          ],
+          "texture": "#girder"
+        }
+      },
+      "name": "tooth"
+    },
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#pole_side"
+        },
+        "east": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#pole_side"
+        },
+        "south": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#pole_side"
+        },
+        "west": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#pole_side"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#pole"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#pole"
+        }
+      },
+      "name": "pole"
+    }
+  ]
+}

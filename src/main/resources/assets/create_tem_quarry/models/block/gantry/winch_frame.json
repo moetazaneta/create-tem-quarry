@@ -1,0 +1,218 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "metal": "create:block/andesite_block",
+    "casing": "create:block/andesite_casing",
+    "parts": "create_tem_quarry:block/gantry_parts_andesite",
+    "particle": "#metal"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        4,
+        6
+      ],
+      "to": [
+        4,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            5.25,
+            10.75,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            10.75,
+            5.25,
+            11.25,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5.25,
+            10.75,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            5.25,
+            11.25,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "hanger_w"
+    },
+    {
+      "from": [
+        12,
+        4,
+        6
+      ],
+      "to": [
+        14,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            5.25,
+            10.75,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            10.75,
+            5.25,
+            11.25,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5.25,
+            10.75,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            5.25,
+            11.25,
+            6.25
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "hanger_e"
+    },
+    {
+      "from": [
+        4,
+        11,
+        7
+      ],
+      "to": [
+        12,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            0.0,
+            2.75,
+            0.125
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            0.0,
+            11.75,
+            0.125
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            0.0,
+            2.75,
+            0.125
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            0.0,
+            11.75,
+            0.125
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            5.25,
+            12.5,
+            5.5
+          ],
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            5.25,
+            12.5,
+            5.5
+          ],
+          "texture": "#parts"
+        }
+      },
+      "name": "hanger_tie"
+    }
+  ]
+}

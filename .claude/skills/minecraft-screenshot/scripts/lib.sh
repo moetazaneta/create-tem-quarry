@@ -12,7 +12,11 @@ client_pid() { pgrep -f 'fabric.dli.env=client' | head -1 || true; }
 
 osa() { osascript -e "$1" >/dev/null; }
 key() { osa "tell application \"System Events\" to key code $1"; }
-focus() { osa "tell application \"System Events\" to set frontmost of (first process whose unix id is $1) to true"; }
+# Setting frontmost alone sometimes leaves the old app in front, so the window is raised first.
+focus() {
+	osa "tell application \"System Events\" to perform action \"AXRaise\" of window 1 of (first process whose unix id is $1)" 2>/dev/null || true
+	osa "tell application \"System Events\" to set frontmost of (first process whose unix id is $1) to true"
+}
 
 # Puts the app that was in front back when the script exits.
 remember_focus() {
